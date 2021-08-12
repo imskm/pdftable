@@ -1,0 +1,32 @@
+{
+	"name": "imskm/pdftable",
+	"description": "PDF Generator in tablular format",
+	"keywords": ["pdf", "php", "table"],
+	"authors": [
+		{
+			"name": "Shek Muktar",
+			"email": "skm_im07@live.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"setasign/fpdf": "~1.8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	},
+	"autoload": {
+		"psr-4": {
+			"PDFTable\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"PDFTable\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"prefer-stable": true
+}
